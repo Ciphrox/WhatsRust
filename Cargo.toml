@@ -1,0 +1,14 @@
+[package]
+name = "WhatsRust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+whatsapp-rust = "0.2.0"
+qr2term = "0.3.3"
+
+wacore = "0.2.0"
+whatsapp-rust-tokio-transport = "0.2"
+whatsapp-rust-ureq-http-client = "0.2"
+
+tokio = "1.49.0"
