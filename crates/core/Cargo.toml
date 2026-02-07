@@ -1,0 +1,12 @@
+[package]
+name = "core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+whatsapp-rust = "0.2.0"
+network = { path = "../network" }
+derive-new = "0.7.0"
+
+[lints]
+workspace = true
